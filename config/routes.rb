@@ -1,4 +1,5 @@
 FortuneTeller::Application.routes.draw do
+  get("/lucky_numbers", :controller => 'numbers', :action => 'new')
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
